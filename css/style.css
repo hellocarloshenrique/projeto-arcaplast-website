@@ -67,11 +67,6 @@ body {
        HOME - BANNER
 **************************/
 
-/*.home .banner {
-    text-align: center;
-    color: white;
-}*/
-
 .home .banner {
     position: absolute;
     top: 50%;
@@ -99,4 +94,12 @@ body {
 
 .home .banner .slogan:first-child {
     color: var(--primary-color);
+}
+
+/*************************
+          ABOUT
+**************************/
+
+.about {
+    height: 100vh;
 }
