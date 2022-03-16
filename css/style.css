@@ -13,9 +13,14 @@ body {
     background-color: rgb(19, 19, 19);
 }
 
+/*************************
+          HOME
+**************************/
+
 .home {
+    position: relative;
     background-size: cover;
-/*     background-image: url(../img/arca_fabrica.jpeg); */
+    background-image: url(../img/arca-fabrica-background.png);
     height: 100vh;
 }
 
@@ -39,6 +44,11 @@ body {
     margin: 0 10px;
 }
 
+.home .header .nav ul li .logo {
+    width: 100px;
+    height: 100px;
+}
+
 .home .header .nav ul li a {
     color: white;
     text-transform: uppercase;
@@ -52,3 +62,38 @@ body {
     color: var(--primary-color);
     border-bottom: 1px solid var(--primary-color);
 }
+
+/*************************
+       HOME - BANNER
+**************************/
+
+/*.home .banner {
+    text-align: center;
+    color: white;
+}*/
+
+.home .banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 270px;
+    width: 770px;
+    margin-top: -75px;
+    margin-left: -385px;
+    color: white;
+    text-align: center;
+}
+
+.home .banner h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.home .banner .slogan {
+    font-size: 70px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
