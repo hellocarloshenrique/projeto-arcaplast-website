@@ -19,6 +19,7 @@ body {
 
 .home {
     position: relative;
+    background-attachment: fixed;
     background-size: cover;
     background-image: url(../img/arca-fabrica-background.png);
     height: 100vh;
@@ -61,7 +62,8 @@ body {
 
 .home .header .nav ul li a:hover {
     color: var(--primary-color);
-    border-bottom: 1px solid var(--primary-color);
+    /* border-bottom: 1px solid var(--primary-color); */
+    transition: 0.5s;
 }
 
 /*************************
